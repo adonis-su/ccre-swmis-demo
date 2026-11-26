@@ -1,13 +1,7 @@
 # CCRE-SWMIS Interactive Prototype
 
-CCRE-SWMIS is a BUS4093 course demonstration for campus resource exchange, repair and collection routing, work orders, and a management dashboard.
+This static BUS4093 prototype demonstrates campus resource exchange, repair and collection routing, work orders, and a management dashboard. Open the [English demo](https://adonis-su.github.io/ccre-swmis-demo/?lang=en&view=login) and expand **Demo accounts** to sign in as a student. On the publishing page, choose **Upload your own photo**, review the item suggestion, and choose a category before publishing. Built-in images are also available.
 
-Open the GitHub Pages site and choose **Browse as a guest** or expand **Demo accounts** on the login page. The chart dashboard is available with the analyst demo account. English, Simplified Chinese, and Traditional Chinese share the same demonstration records.
+Uploaded photos and draft data stay in this browser and site origin. Published photos are visible to other demo accounts in the same browser. Each device or browser profile starts with its own data. A pretrained model runs in the browser and uses static model files from this site. You can complete the form manually if recognition is uncertain or unavailable.
 
-Each browser starts with its own copy of the fictional data. Use **Switch demo account** within the same browser tab for a multi-role demonstration. Switching accounts or signing out preserves the local records. **Reset to fixed baseline** restores the initial demonstration data.
-
-The site runs entirely in the browser and uses preset fictional identities. The published files are a static Vite build with relative asset paths.
-
-## Maintainer setup
-
-Publish the repository's `main` branch from `/(root)` in **Settings → Pages**. Use the site's `?lang=en&view=login` entry for the report. Update by replacing the published files with a freshly verified build from the same source project.
+This repository is the published V5 static build. GitHub Pages serves the `main` branch from the repository root.
